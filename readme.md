@@ -6,7 +6,7 @@ This is a proof of concept repo that sideloads a CRA app into an express ejs vie
 
 Clone the repo and install npm dependencies in the `api` and `frontend` folders
 
-copy `api/.env.sampe` to `api/.env`
+Copy `api/.env.sample` to `api/.env`
 
 Startup both apps using node-foreman by first installing it.
 
@@ -16,12 +16,12 @@ Then booting it up with
 
 `nf start`
 
-You can access the Front end app on `http://localhost:3000` and call the API health check endpoint on `http://localhost:3000/health`
-
 ## Production
 
 Set ` NODE_ENV=production` in `api/.env`
 
-Build the RCRA front end with `yarn build`
+Build the CRA front end with `yarn build`
 
 Run the Prod app with `nf start`
+
+You can view the frontend app on `http://localhost:3000` and call the api health check endpoint on `http://localhost:3000/health`
