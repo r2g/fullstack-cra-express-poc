@@ -12,7 +12,7 @@ Startup both apps using [node-foreman](https://github.com/strongloop/node-forema
 
 `npm i -g node-foreman`
 
-Then booting it up with
+Then booting it up from the root folder with
 
 `nf start`
 
