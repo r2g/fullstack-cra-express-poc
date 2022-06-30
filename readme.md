@@ -4,7 +4,11 @@ This is a proof of concept repo that sideloads a CRA app into an express ejs vie
 
 ## Development
 
-Startup both apps using node-foreman by first installing it
+Clone the repo and install npm dependencies in the `api` and `frontend` folders
+
+copy `api/.env.sampe` to `api/.env`
+
+Startup both apps using node-foreman by first installing it.
 
 `npm i -g node-foreman`
 
@@ -16,7 +20,7 @@ You can access the Front end app on `http://localhost:3000` and call the API hea
 
 ## Production
 
-Set` NODE_ENV=production` in /api/.env
+Set ` NODE_ENV=production` in `api/.env`
 
 Build the RCRA front end with `yarn build`
 
