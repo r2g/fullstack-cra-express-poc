@@ -1,6 +1,6 @@
 # Fullstack with CRA and Express PoC
 
-This is a proof of concept repo that sideloads a CRA app into an express ejs view during development. The advantage of this is that fetch calls to the exppress API are the same both in dev and in prod since the UI and API load on the same Port.
+This is a proof of concept repo that sideloads a [CRA app](https://create-react-app.dev) into an express [ejs](https://ejs.co/) view during development. The advantage of this is that fetch calls to the [express](https://expressjs.com/) API are the same both in dev and in prod since the UI and API load on the same Port.
 
 ## Development
 
@@ -8,7 +8,7 @@ Clone the repo and install npm dependencies in the `api` and `frontend` folders
 
 Copy `api/.env.sample` to `api/.env`
 
-Startup both apps using node-foreman by first installing it.
+Startup both apps using [node-foreman](https://github.com/strongloop/node-foreman) by first installing it.
 
 `npm i -g node-foreman`
 
