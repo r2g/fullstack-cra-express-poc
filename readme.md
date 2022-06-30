@@ -24,4 +24,4 @@ Build the CRA front end with `yarn build`
 
 Run the Prod app with `nf start`
 
-You can view the frontend app on `http://localhost:3000` and call the api health check endpoint on `http://localhost:3000/health`
+You can view the frontend app on `http://localhost:4000` and call the api health check endpoint on `http://localhost:4000/health`
